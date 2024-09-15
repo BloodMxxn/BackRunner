@@ -1,7 +1,7 @@
 @ECHO OFF
 COLOR 2
-mode con: cols=100
+mode con: cols=100 lines=40
 :loop
-echo|set /p="01010101011010100110101110100101010010101010101010101010101010101010101"
+echo|set /p="0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 0 1 1 0 1 0 1 1 1 0 1 0 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0"
 goto loop
 PAUSE
